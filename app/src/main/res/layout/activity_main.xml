@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EMI calculator"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="principal"
+        android:textSize="20dp"
+        android:textColor="@color/teal_200"
+        android:textStyle="bold"/>
+
+
+
+    <EditText
+        android:id="@+id/etprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Principal"
+        android:textSize="20dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Downpayment"
+        android:textSize="20dp"
+        android:textColor="@color/teal_200"
+        android:textStyle="bold"/>
+
+
+
+    <EditText
+        android:id="@+id/etdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Downpayment"
+        android:textSize="20dp"
+
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate"
+        android:textSize="20dp"
+        android:textColor="@color/teal_200"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/etir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Rate"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:textSize="20dp"
+        android:textColor="@color/teal_200"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etym"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Year"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/tvans"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:text="Result"
+        android:textSize="15dp"/>
+    <TextView
+        android:id="@+id/tvans2"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:text="Result"
+        android:visibility="gone"
+        android:textSize="15dp"/>
+    <TextView
+        android:id="@+id/tvans3"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:text="Result"
+        android:visibility="gone"
+        android:textSize="15dp"/>
+
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:text="Result"
+        android:visibility="gone"
+        android:textSize="15dp"/>
+
+    <Button
+        android:id="@+id/btca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Emi"
+        android:textSize="15dp"/>
+
+
+
+</LinearLayout>
